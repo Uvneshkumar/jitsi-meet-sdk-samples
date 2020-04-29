@@ -1,9 +1,10 @@
 package net.jitsi.sdktest;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import org.jitsi.meet.sdk.JitsiMeet;
 import org.jitsi.meet.sdk.JitsiMeetActivity;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         // Initialize default options for Jitsi Meet conferences.
         URL serverURL;
         try {
-            serverURL = new URL("https://meet.jit.si");
+            serverURL = new URL("https://tringchat.tringbytes.com/");
         } catch (MalformedURLException e) {
             e.printStackTrace();
             throw new RuntimeException("Invalid server URL!");
